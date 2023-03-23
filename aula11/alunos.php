@@ -27,5 +27,4 @@ $dados = [$aluno1, $aluno2, $aluno3, $aluno4];
 //print_r($dados);
 echo json_encode($dados);
 
-
 ?>
