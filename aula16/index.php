@@ -69,6 +69,15 @@
   </div>
 </nav>
         <!-- final do menu -->
+
+        <!-- lista de produtos -->
+        <div class="container">
+            <div class="row row-cols-4">
+    
+</div>
+</div>
+        <!-- final da lista de produtos -->
+        ]
      
     <h1>Hello, world!</h1>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
