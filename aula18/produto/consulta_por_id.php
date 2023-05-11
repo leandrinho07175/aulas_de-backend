@@ -10,7 +10,7 @@
  $id = $_GET['id'];
 
 //String com o comando SQL para ser executado no DB
- $sql = "DELETE FROM `produto` WHERE  `idproduto`= ? ;";
+ $sql = "SELECT * FROM `produto` WHERE  `idproduto`= ? ;";
 echo $sql;
 
  //Prepara o SQL para ser executado no banco de dados
@@ -22,9 +22,15 @@ echo $sql;
  //executa o SQL - Comando no Banco de dados
  $comando->execute();
 
+ //pegar resultado da consulta
+ $resultado = $comando->get_result();
+
+ //pegar primeira linha de resultado 
+ $produto = $resultado->fetch_assoc();
+
+
  }
 
- //abre o arquivo form.php
- header("Location: form.php");
+
 
  

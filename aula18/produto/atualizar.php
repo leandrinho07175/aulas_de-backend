@@ -8,7 +8,7 @@
  $preco =$_POST["preco"];
 
 //String com o comando SQL para ser executado no DB
- $sql = "INSERT INTO `produto` (`nome`, `descricao`, `preco`, `foto` ) VALUES (?, ?, ?, ? );";
+ $sql = "UPDATE produto SET `nome`=?, `descricao`=?, `preco`=0, `foto`=? WHERE  `idproduto`=? ";
 echo $sql;
 
  //Prepara o SQL para ser executado no banco de dados
