@@ -24,8 +24,6 @@
 
  }
 
- var_dump($produtos);
-
 
 
  

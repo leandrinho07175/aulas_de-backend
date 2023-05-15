@@ -11,7 +11,7 @@
 
 //String com o comando SQL para ser executado no DB
  $sql = "SELECT * FROM `produto` WHERE  `idproduto`= ? ;";
-echo $sql;
+
 
  //Prepara o SQL para ser executado no banco de dados
  $comando = $conexao->prepare($sql);
