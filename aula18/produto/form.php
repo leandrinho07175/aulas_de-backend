@@ -15,7 +15,10 @@
 
     <label for="nome">Nome</label><br>
     <input type="text" name="nome" id="nome" value="<?php echo $produto['nome'] ?? ""; ?>"><br>
-    <input type="hidden" name="id" id="id" value="<?php echo $produto['idproduto'] ?? ""; ?>"><br>
+    <input type="hidden
+    
+    
+    " name="id" id="id" value="<?php echo $produto['idproduto'] ?? ""; ?>"><br>
 
     <label for="descricao">Descrição</label><br>
     <textarea name="descricao" id="descricao"><?php echo $produto['descricao'] ?? ""; ?></textarea><br>
