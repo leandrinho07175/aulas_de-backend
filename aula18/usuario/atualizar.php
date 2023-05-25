@@ -18,4 +18,4 @@ require_once "salvar_foto.php";
  $comando->execute();
  }
  //abre o arquivo form.php
- header("location: usuarios.php");
+ header("location: index.php");

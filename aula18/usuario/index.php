@@ -2,6 +2,8 @@
 
 <?php require_once "../template/cabecalho.php"; ?>
 
+
+
   <div class="container">
     <h1>usuario</h1>
     <hr>
@@ -14,7 +16,7 @@
       <th scope="col">Nome</th>
       <th scope="col">login</th>
       <th scope="col">Fotos</th>
-      <th scope="col">Açoes</th>
+      <th scope="col" width="20%">Açoes</th>
     </tr>
   </thead>
   <tbody>
@@ -24,7 +26,7 @@
       <th scope="row"><?php echo $usuario['nome'];?></th>
       <td><?php echo $usuario['login'];?></td>
       <td><?php echo $usuario['foto'];?></td>
-      <td>
+      <td class="text-end">
         <a href="excluir.php?id=<?php echo $usuario['idusuario'];?>" class="btn btn-danger"><i class="fa-regular fa-trash-can"></i> Excluir</a>
         <a href="form.php?id=<?php echo $usuario['idusuario'];?>" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i> atualizar</a>
       </td>
